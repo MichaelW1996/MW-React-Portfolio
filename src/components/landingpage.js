@@ -45,3 +45,6 @@ export default function Landing() {
     </div>
   );
 }
+
+//landing needs to be about me
+//heck
