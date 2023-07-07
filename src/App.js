@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import "./App.css";
 import React from "react";
 import About from "./components/aboutme";
-import Landing from "./components/landingpage";
 import Navtitle from "./components/navbar";
 import CV from "./components/cv";
 import Projects from "./components/projects";
@@ -17,8 +16,8 @@ function App() {
 
       <div>
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/aboutme" element={<About />} />
+          {/* <Route path="/" element={<Landing />} /> */}
+          <Route path="/" element={<About />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

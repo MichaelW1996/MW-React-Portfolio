@@ -6,12 +6,16 @@ export default function AboutMe() {
   return (
     <div className="landing-grid">
       <Container className="contact-grid bottom-padding">
+        <p>
+          HTML/CSS | Javascript | Bootstrap | React.js | Express.js | Node.js |
+          MongoDB | GraphQL | jQuery | MySQL | Git
+        </p>
         <Row>
           <Col>
-            <h2>Michael Waltes</h2>
+            <h2>Michael Walters</h2>
             {/* <img src={image} alt="Image of Michael's face" className="hor-img" /> */}
           </Col>
-          <Col className="">
+          <Col className="aboutsection">
             <p style={{ width: "75%", margin: "auto" }}>
               A Driven and Dedicated Web Developer, with a solid understanding
               of front and back-end development with a strong work ethic and
