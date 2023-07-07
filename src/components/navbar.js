@@ -12,15 +12,14 @@ export default function Navtitle() {
       variant="dark"
       className="header-color"
     >
-      <Container>
+      <Container className="header">
         <Navbar.Brand href="/">Michael's Portfolio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto ">
             <Link to="/cv" className="nav-padding">
               CV/Resume
             </Link>
-            <Link to="/aboutme" className="nav-padding">
+            <Link to="/" className="nav-padding">
               About Me
             </Link>
             <Link to="/projects" className="nav-padding">

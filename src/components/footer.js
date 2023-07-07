@@ -25,9 +25,7 @@ export default function Footer() {
               Home
             </a>
 
-            <a href="/cv">Resume</a>
-
-            <a href="/aboutme">About Me</a>
+            <a href="/cv">CV</a>
 
             <a href="/projects">Projects</a>
 
