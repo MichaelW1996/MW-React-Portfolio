@@ -2,7 +2,13 @@
 
 ## <span id=Description> Description </span>
 
+Live link: https://michaelw1996.github.io/mw-react-portfolio/
+
 A new portfolio built using react to show off my projects and work
+
+## Screenshot
+
+![Livesite](Livesite.jpg)
 
 ## Contents
 
