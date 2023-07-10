@@ -28,6 +28,27 @@ const projects = [
     desc: "Coming soon - A messaging app where you do the encryption yourself",
     url: "https://www.tnmoc.org/bh-2-the-enigma-machine",
   },
+  {
+    id: 4,
+    name: "One More Social Network",
+    repo: "onemoresocialnetwork",
+    desc: "Social network backend using MongoDB ",
+    url: "https://github.com/MichaelW1996/onemoresocialnetwork",
+  },
+  {
+    id: 5,
+    name: "NotionButWorse",
+    repo: "notionbutworse",
+    desc: "Note taker, like Notion, but worse",
+    url: "https://radiant-beyond-76665-ebe8b3d12b2c.herokuapp.com/",
+  },
+  {
+    id: 6,
+    name: "DayPlanner",
+    repo: "dayplanner",
+    desc: "A simple workday planner",
+    url: "https://michaelw1996.github.io/Week_planner/",
+  },
 ];
 
 export default function Projects() {

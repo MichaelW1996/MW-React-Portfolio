@@ -25,7 +25,8 @@ export default function AboutMe() {
               technical and figuring out how things operate, this manifested as
               nerdy interests such as Computor building & robotics as well as a
               thirst for knowledge and new skills.
-              <ul></ul>
+            </p>
+            <p>
               After completing college, I decided to seek employment in a new
               feild. I swiftly found myself working in the worlds of geophysics
               and geomatics, overtime i found i was enjoying data manipulation
@@ -37,7 +38,8 @@ export default function AboutMe() {
               industry specific tools written in MATLAB and Python. I found it
               fascinating to see lines of text execute tasks i had spent hours
               performing, pretty soon i was in love with programming.
-              <ul></ul>
+            </p>
+            <p>
               In 2023 i found myself more and more drawn to a new career, my
               studies individually had been rewarding and enjoyable, but i knew
               the dream would only be achievable if i could commit more time to

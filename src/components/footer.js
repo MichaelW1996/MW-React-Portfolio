@@ -1,6 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
+import {
+  faGithub,
+  faLinkedin,
+  faStackExchange,
+} from "@fortawesome/free-brands-svg-icons";
 // import "../Footer.css";
 
 export default function Footer() {
@@ -17,21 +22,31 @@ export default function Footer() {
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
+          <a
+            href="https://stackoverflow.com/users/22200177/michael-walters"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faStackExchange} />
+          </a>
+
+          <FontAwesomeIcon icon="fab fa-stack-overflow" />
         </div>
 
         <div class="footer-left">
           <p class="footer-links">
-            <a class="link-1" href="/">
-              Home
-            </a>
-
-            <a href="/cv">CV</a>
-
-            <a href="/projects">Projects</a>
-
-            <a href="/contact">Contact</a>
+            <Link to="/cv" className="nav-padding">
+              CV/Resume
+            </Link>
+            <Link to="/" className="nav-padding">
+              About Me
+            </Link>
+            <Link to="/projects" className="nav-padding">
+              Projects
+            </Link>
+            <Link to="/contact" className="nav-padding">
+              Contact
+            </Link>
           </p>
-
           <p>Michael &copy; 2023</p>
         </div>
       </footer>
