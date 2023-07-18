@@ -8,6 +8,13 @@ import { Card } from "react-bootstrap";
 const githubUser = "https://github.com/MichaelW1996/";
 const projects = [
   {
+    id: 0,
+    name: "Wizdumb",
+    repo: "Wizdumb",
+    desc: "A platform for users to learn together and share resources",
+    url: "https://wizdumb-app-a832fc305640.herokuapp.com/",
+  },
+  {
     id: 1,
     name: "Ludicrous Display",
     repo: "projectLudicrousDisplay",
